@@ -80,7 +80,7 @@ export default function Register() {
             </div>
             <form onSubmit={handleSubmit}>
                <div className="field">
-                  <input type="text" name="username" required />
+                  <input type="text" name="username" maxLength={50} required />
                   <label>username</label>
                </div>
                <div className="field">
